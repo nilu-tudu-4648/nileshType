@@ -1,16 +1,11 @@
 {
   "expo": {
-    "name": "nileshType",
+    "name": "Boongg Partner",
     "slug": "nileshType",
-    "version": "1.0.0",
+    "version": "1.0.10",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -21,10 +16,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "versionCode": 11,
+      "package": "com.boongg.boonggadminapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "acc1ba06-6f16-45f6-ba32-032652940a8d"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/acc1ba06-6f16-45f6-ba32-032652940a8d"
     }
   }
 }
